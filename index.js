@@ -16,7 +16,7 @@ app.use("/api", (req, res) => {
   console.log("Body", req.body, "\n\n");
   console.log("Query", req.query, "\n\n");
   console.log(`TranscriptionData: ${req.query.TranscriptionData}`);
-  consosle.log(`Transcript: ${req.query.TranscriptionData.transcript}`);
+  console.log(`Transcript: ${req.query.TranscriptionData.transcript}`);
   res.status(200).end();
 });
 
